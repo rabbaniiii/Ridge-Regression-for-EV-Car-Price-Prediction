@@ -1,38 +1,105 @@
-Ridge Regression - EV Price Prediction
+# Ridge Regression - EV Price Prediction
 
-This project uses Ridge Regression to predict the price of electric vehicles based on their specifications.
+## 📌 About the Project
 
-Dataset
+This project uses **Ridge Regression** to predict the price of electric vehicles (EVs).
 
-The dataset contains:
+The model uses different EV specifications such as **brand, model, range, power, and battery capacity** to predict the vehicle price.
 
-Brand
-Model
-Price
-Range
-Power
-Battery
-Technologies Used
-Python
-Pandas
-NumPy
-Scikit-learn
-Google Colab
-Machine Learning
+## 🎯 Objective
 
-The project uses:
+The main objective of this project is to understand how **Ridge Regression** can be used for a simple machine learning prediction problem.
 
-OneHotEncoder for categorical data
-StandardScaler for numerical data
-Ridge Regression for prediction
-Train-test split for model evaluation
-Evaluation
+The project includes data preprocessing, feature encoding, feature scaling, model training, prediction, and evaluation.
 
-The model is evaluated using:
+## 📊 Dataset
 
-MAE
-RMSE
-R² Score
-File
+The dataset contains **26 electric vehicle records** and 6 columns.
 
-Ridge_Regression.ipynb – Google Colab notebook containing the complete project.
+The columns are:
+
+* **Brand** – EV manufacturer
+* **Model** – EV model
+* **Price** – Price of the vehicle
+* **Range** – Driving range
+* **Power** – Vehicle power
+* **Battery** – Battery capacity
+
+The **Price** column is used as the target variable.
+
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Google Colab
+
+## ⚙️ Machine Learning Process
+
+The following steps are performed in the project:
+
+1. Load the EV dataset.
+2. Explore the dataset using Pandas.
+3. Check the number of rows and columns.
+4. Check for missing values.
+5. Separate the features and target variable.
+6. Identify categorical and numerical columns.
+7. Convert categorical data using **OneHotEncoder**.
+8. Scale numerical data using **StandardScaler**.
+9. Split the dataset into training and testing data.
+10. Build a **Ridge Regression** model.
+11. Train the model.
+12. Predict EV prices.
+13. Evaluate the model using different metrics.
+
+## 🤖 Model Used
+
+### Ridge Regression
+
+Ridge Regression is a type of linear regression that uses regularization.
+
+In this project, different `alpha` values are considered for the Ridge model.
+
+```text
+0.01
+0.1
+1
+10
+100
+```
+
+## 📈 Model Evaluation
+
+The model uses the following evaluation metrics:
+
+* **MAE (Mean Absolute Error)**
+* **RMSE (Root Mean Squared Error)**
+* **R² Score**
+
+These metrics help measure how well the model predicts EV prices.
+
+## 📁 Project Files
+
+```text
+Ridge_Regression.ipynb
+ev_car_India_dataset.csv
+README.md
+```
+
+### Ridge_Regression.ipynb
+
+Contains the complete Python code and machine learning workflow.
+
+### ev_car_India_dataset.csv
+
+Contains the electric vehicle dataset used for training and testing.
+
+## 🚀 How to Run
+
+1. Open the `Ridge_Regression.ipynb` file in **Google Colab**.
+2. Upload the `ev_car_India_dataset.csv` dataset.
+3. Run the notebook cells in order.
+4. The model will train and generate predicti

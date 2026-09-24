@@ -102,4 +102,22 @@ Contains the electric vehicle dataset used for training and testing.
 1. Open the `Ridge_Regression.ipynb` file in **Google Colab**.
 2. Upload the `ev_car_India_dataset.csv` dataset.
 3. Run the notebook cells in order.
-4. The model will train and generate predicti
+4. The model will train and generate prediction and evaluation results.
+
+## 📚 Learning Outcome
+
+Through this project, I learned how to:
+
+* Work with a real-world dataset.
+* Explore and prepare data using Pandas.
+* Handle categorical and numerical features.
+* Use `OneHotEncoder` and `StandardScaler`.
+* Split data into training and testing sets.
+* Build a Ridge Regression model.
+* Make predictions using a machine learning model.
+* Evaluate regression models using MAE, RMSE, and R².
+
+## 👨‍💻 Author
+
+**K Mushtaaqh Rabbani**
+
